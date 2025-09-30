@@ -11,6 +11,6 @@ const DATA = [
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App subject="Deon" greeting="Be a nice person" task={DATA} />
+    <App task={DATA} />
   </StrictMode>,
 )
